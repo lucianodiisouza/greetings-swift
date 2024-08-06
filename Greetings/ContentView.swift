@@ -9,34 +9,49 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-//            Color
-//                .cyan
-//                .opacity(0.7)
-//                .ignoresSafeArea()
-            
-            LinearGradient(
-                colors: [.cyan, .yellow, .blue],
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            ).opacity(0.5)
-             .ignoresSafeArea()
-            
-            VStack {
-                Text("Greetings !")
-                    .font(.largeTitle)
+        VStack(alignment: .leading) {
+                Text("Hello There")
                     .fontWeight(.semibold)
                     .padding()
-                    .foregroundStyle(Color.purple)
-                    .background(Color.orange)
+                    .foregroundStyle(Color.white)
+                    .background(Color.orange.opacity(0.5))
                     .cornerRadius(20.0)
-                    .shadow(color: .orange, radius: 5, x: 5.0, y: 5)
+                    .shadow(color: .orange, radius: 5, x: 10, y: 10)
+                
+                Text("Hi")
+                    .fontWeight(.semibold)
                     .padding()
+                    .foregroundStyle(Color.white)
+                    .background(Color.green.opacity(0.5))
+                    .cornerRadius(20.0)
+                    .shadow(color: .orange, radius: 5, x: 10, y: 10)
+                Text("Ready?")
+                    .fontWeight(.semibold)
+                    .padding()
+                    .foregroundStyle(Color.white)
+                    .background(Color.purple.opacity(0.5))
+                    .cornerRadius(20.0)
+                    .shadow(color: .orange, radius: 5, x: 10, y: 10)
+                Text("Welcome,")
+                    .fontWeight(.semibold)
+                    .padding()
+                    .foregroundStyle(Color.white)
+                    .background(Color.gray.opacity(0.5))
+                    .cornerRadius(20.0)
+                    .shadow(color: .orange, radius: 5, x: 10, y: 10)
+                
+                Text("to Swift!")
+                    .fontWeight(.semibold)
+                    .padding()
+                    .foregroundStyle(Color.yellow)
+                    .background(Color.gray.opacity(0.5))
+                    .cornerRadius(20.0)
+                    .shadow(color: .orange, radius: 5, x: 10, y: 10)
+                    
             }
-            .padding()
-        }
     }
 }
+
 
 #Preview {
     ContentView()
