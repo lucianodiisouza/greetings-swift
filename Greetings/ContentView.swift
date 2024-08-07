@@ -15,10 +15,14 @@ struct ContentView: View {
         .init(text: "start exploring?", color: .yellow),
         .init(text: "Boom!", color: .cyan),
     ]
+    
     var body: some View {
         VStack(alignment: .leading) {
-            TextView(text: messages[0].text, color: messages[0].color)
+            ForEach(messages) { message in
+                TextView(text: message.text, color: message.color)
+                
             }
+        }
         .padding()
     }
 }
