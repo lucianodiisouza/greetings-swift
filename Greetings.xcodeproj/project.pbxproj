@@ -12,6 +12,7 @@
 		3112E7BF2C62E26200E14CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3112E7BE2C62E26200E14CF0 /* Assets.xcassets */; };
 		3112E7C32C62E26200E14CF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3112E7C22C62E26200E14CF0 /* Preview Assets.xcassets */; };
 		3112E7CA2C62E93800E14CF0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112E7C92C62E93800E14CF0 /* TextView.swift */; };
+		3112E7CC2C62F97400E14CF0 /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112E7CB2C62F97400E14CF0 /* DataItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3112E7C02C62E26200E14CF0 /* Greetings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Greetings.entitlements; sourceTree = "<group>"; };
 		3112E7C22C62E26200E14CF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3112E7C92C62E93800E14CF0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		3112E7CB2C62F97400E14CF0 /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3112E7B92C62E26100E14CF0 /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
+				3112E7CB2C62F97400E14CF0 /* DataItemModel.swift */,
 				3112E7BA2C62E26100E14CF0 /* GreetingsApp.swift */,
 				3112E7BC2C62E26100E14CF0 /* ContentView.swift */,
 				3112E7C92C62E93800E14CF0 /* TextView.swift */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3112E7CC2C62F97400E14CF0 /* DataItemModel.swift in Sources */,
 				3112E7CA2C62E93800E14CF0 /* TextView.swift in Sources */,
 				3112E7BD2C62E26100E14CF0 /* ContentView.swift in Sources */,
 				3112E7BB2C62E26100E14CF0 /* GreetingsApp.swift in Sources */,
