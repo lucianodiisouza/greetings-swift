@@ -18,10 +18,22 @@ struct ContentView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: 0){
+                Text("Greetings")
+                    .font(.largeTitle)
+                    .fontWeight(.semibold)
+                Text("Exploring iOS Programmi ng")
+                    .font(.headline)
+                    .fontWeight(.thin)
+            }
+            
+            Spacer()
             ForEach(messages) { message in
                 TextView(text: message.text, color: message.color)
                 
             }
+            Spacer()
+            Spacer()
         }
         .padding()
     }
